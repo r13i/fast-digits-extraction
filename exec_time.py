@@ -10,5 +10,5 @@ def exec_time(func):
         toc = time()
         print("*** Execution of {} :".format(func.__name__))
         print("> The result : {}".format(res))
-        print("> Execution time : {} ms".format((toc - tic) * 1000))
+        print("> Execution time : {} ms".format((toc - tic) * 1000), end="\n\n")
     return wrapper
